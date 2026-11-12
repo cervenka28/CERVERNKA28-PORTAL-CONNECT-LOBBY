@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>CERVENKA28 PORTAL</title>
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    overflow: hidden;
+
+    background:
+        linear-gradient(rgba(8,0,20,.65), rgba(8,0,20,.8)),
+        url("background.jpg") center/cover no-repeat;
+}
+
+.container {
+    text-align: center;
+    padding: 55px 65px;
+    background: rgba(20,8,35,.8);
+    border: 1px solid #a855f7;
+    border-radius: 25px;
+    backdrop-filter: blur(15px);
+    box-shadow: 0 0 50px rgba(168,85,247,.35);
+    animation: enter 1s ease;
+}
+
+h1 {
+    color: white;
+    font-size: 35px;
+    letter-spacing: 5px;
+    text-shadow: 0 0 20px #a855f7;
+}
+
+p {
+    color: #c084fc;
+    margin-top: 12px;
+    letter-spacing: 6px;
+    font-size: 13px;
+}
+
+.connect {
+    display: inline-block;
+    margin-top: 35px;
+    padding: 17px 55px;
+    background: linear-gradient(90deg,#7e22ce,#c026d3);
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    letter-spacing: 4px;
+    border-radius: 12px;
+    box-shadow: 0 0 25px #9333ea;
+    transition: .3s;
+}
+
+.connect:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 40px #c026d3;
+}
+
+.footer {
+    position: fixed;
+    bottom: 20px;
+    right: 25px;
+    color: white;
+    font-size: 11px;
+    letter-spacing: 3px;
+    opacity: .7;
+}
+
+@keyframes enter {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1>CERVENKA28</h1>
+    <p>PORTAL</p>
+
+    <a class="connect"
+       href="https://cervenka28.github.io/CERVERNKA28-PORTAL/">
+       CONNECT
+    </a>
+
+</div>
+
+<div class="footer">
+    CERVENKA28 PORTAL
+</div>
+
+</body>
+</html>
